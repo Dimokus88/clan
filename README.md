@@ -92,7 +92,7 @@ Thus, you will get a link to a direct download of the file:
 
 <div align="center">
   
-![image](https://user-images.githubusercontent.com/23629420/171263925-fb3abceb-3816-4c09-8470-c247d332a48e.png)
+![image](https://user-images.githubusercontent.com/23629420/172896658-46cb70f3-e806-4cac-afa0-4c3f623207d9.png)
  
 </div>
 
@@ -215,7 +215,7 @@ We are waiting for the completion of the deployment.
 
 <div align="center">
   
-![image](https://user-images.githubusercontent.com/23629420/171263863-67705657-e0aa-4fe1-9530-ac97007318ba.png)
+![image](https://user-images.githubusercontent.com/23629420/172896704-fa99fca7-1d2d-457b-bfa8-ae6e12037229.png)
  
 </div>
 
