@@ -68,7 +68,7 @@ We are waiting for the completion of the deployment.
 
 <div align="center">
   
-![image](https://user-images.githubusercontent.com/23629420/171269920-572ee8c5-5e9b-4b3f-b7a6-56f704200d7a.png)
+![image](https://user-images.githubusercontent.com/23629420/172893355-2b6fe2f0-2683-42e2-b95d-21263dc39145.png)
   
 </div>
 
@@ -196,7 +196,7 @@ We are waiting for the completion of the deployment.
 
 <div align="center">
   
-![image](https://user-images.githubusercontent.com/23629420/171269962-0010a5be-8e45-4dec-a7c9-156fcaedf1cc.png)
+![image](https://user-images.githubusercontent.com/23629420/172893414-bf8facaa-3f7d-484f-b97d-b84d277f90ae.png)
   
 </div>
 
