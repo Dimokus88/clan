@@ -29,8 +29,6 @@ Before you start - subscribe to our news channels:
 
 # English version
 
-Fill out the [form](https://forms.gle/CzBeqENRZrrXXG4x7) . Tasks for a testnet [this](https://3pgv.notion.site/All-Testnet-Missions-16c0a40320244c24b0bc3f663c0cf00b) !
-
 > If you want to migrate your Clan node to Akash, or if you have priv_validator_key.json, then go [to this step](https://github.com/Dimokus88/Clan#if-you-have-priv_validator_keyjson).
 
 >You must have more than ***5 AKT*** on your Akash wallet (5 АКТ will be blocked for deployment + transaction gas payment). АКТ can be found on the exchanges Gate, AsendeX, Osmosis . Also in our community[Akash RU](https://t.me/akash_ru) we regularly hold events in which we distribute АКТ.
@@ -159,8 +157,6 @@ We are waiting for the completion of the deployment.
 ### Thank you for choosing Akash Network!
 
 # Русская версия
-
-Заполняем [форму](https://forms.gle/CzBeqENRZrrXXG4x7) . Задачи по тестнету [тут](https://3pgv.notion.site/All-Testnet-Missions-16c0a40320244c24b0bc3f663c0cf00b)!
 
 > Если хотите перенести вашу ноду на Akash, или у вас есть priv_validator_key.json, то перейдите [к этому пункту](https://github.com/Dimokus88/Clan#%D0%B5%D1%81%D0%BB%D0%B8-%D1%83-%D0%B2%D0%B0%D1%81-%D0%B5%D1%81%D1%82%D1%8C-priv_validator_keyjson).
 
