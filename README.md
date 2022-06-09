@@ -50,8 +50,7 @@ Before you start - subscribe to our news channels:
 * ```my_root_password``` - password  ```root``` user, for connection to container via ```ssh```.
 * ```MONIKER```       - Node name .
 * ```MNEMONIС```      -  insert the mnemonic phrase from your wallet ***Clan***.
-* ```LINK_ADDRBOOK```       - link addrbook.json
-* ```SNAP_RPC```      - link RPC node.
+
 > ```LINK_KEY``` -  comment out the env to the priv_validator_key.json. 
 
 In the ```resources``` field, we set the capacity to be rented. ```4 CPU x 32 GB RAM x 1 TB SSD``` recommended for ***Clan*** node. 
@@ -126,8 +125,6 @@ Thus, you will get a link to a direct download of the file:
 * ```my_root_password``` - password  ```root``` user, for connection to container via ```ssh```.
 * ```MONIKER```       - Node name .
 * ```MNEMONIС```      -  insert the mnemonic phrase from your wallet ***Clan***.
-* ```LINK_ADDRBOOK```       - link addrbook.json
-* ```SNAP_RPC```      - link RPC node.
 * ```LINK_KEY``` -  paste the link to the hosted priv_validator_key.json (direct download).
 
 In the ```resources``` field, we set the capacity to be rented. ```4 CPU x 32 GB RAM x 1 TB SSD``` recommended for ***Clan*** node. 
@@ -181,10 +178,6 @@ We are waiting for the completion of the deployment.
 В поле ***MONIKER*** - задаем имя ноды.
 
 В поле ***MNEMONIС*** - вставляем мнемоник фразу от вашего кошелька ***Clan***.
-
-В поле ***LINK_ADDRBOOK*** - ссылка на скачивание адресной книги пиров .
-
-В поле ***SNAP_RPC*** - ссылка на ***RPC*** ноду, для начала синхронизации с последних блоков (рекомендуется) .
 
 > Поле ***LINK_KEY*** -  оставьте закомментированным ссылка на размещенный priv_validator_key.json (прямое скачивание).
 
@@ -264,11 +257,7 @@ We are waiting for the completion of the deployment.
 
 В поле ***LINK_KEY*** -  скопируйте ссылку на размещенный priv_validator_key.json (прямое скачивание). 
 
-В поле ***LINK_ADDRBOOK*** - ссылка на скачивание адресной книги пиров .
-
-В поле ***SNAP_RPC*** - ссылка на ***RPC*** ноду, для начала синхронизации с последних блоков.
-
-Ниже, в поле ```resources``` мы выставляем арендуюмую мощность. для ноды ***Clan*** рекомендуется ```2 CPU x 4 GB RAM x 600 GB SSD```. В случае синхронизации с ***RPC*** ноды - мы храним не полный блокчейн, поэтому можно поставить  ```2 CPU x 4 GB RAM x 100 GB SSD```. 
+Ниже, в поле ```resources``` мы выставляем арендуемую мощность. для ноды ***Clan*** рекомендуется ```2 CPU x 4 GB RAM x 100 GB SSD```. В случае синхронизации с ***RPC*** ноды - мы храним не полный блокчейн, поэтому можно поставить  ```2 CPU x 4 GB RAM x 100 GB SSD```. 
 
 Нажимаем кнопку ```CREATE DEPLOYMENT``` и ждем появления провайдеров, со свободными мощностями (***BIDS***).
 
