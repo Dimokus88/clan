@@ -24,7 +24,6 @@ Before you start - subscribe to our news channels:
   
 [English version](https://github.com/Dimokus88/Clan#english-version) | [Русская версия](https://github.com/Dimokus88/Clan#%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F)
   
-[Useful Commands | Полезные команды](https://github.com/Dimokus88/Clan#useful-commands--%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B)
 </div>
 
 # English version
@@ -101,8 +100,6 @@ Thus, you will get a link to a direct download of the file:
 
 [Go to start](https://github.com/Dimokus88/Clan#Clan-validator-node-on-akash-network)
 
-[Useful Commands](https://github.com/Dimokus88/Clan#useful-commands--%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B)
-
 ### Thank you for choosing Akash Network!
 
 ## If you have priv_validator_key.json
@@ -149,8 +146,6 @@ We are waiting for the completion of the deployment.
 </div>
 
 [Go to start](https://github.com/Dimokus88/Clan#Clan-validator-node-on-akash-network)
-
-[Useful Commands](https://github.com/Dimokus88/Clan#useful-commands--%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B)
 
 ### Thank you for choosing Akash Network!
 
@@ -228,8 +223,6 @@ We are waiting for the completion of the deployment.
 
 [Перейти к началу](https://github.com/Dimokus88/Clan#Clan-validator-node-on-akash-network)
 
-[Полезные команды](https://github.com/Dimokus88/Clan#useful-commands--%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B)
-
 ### Спасибо что используете Akash Network!
 
 ## Если у вас есть priv_validator_key.json
@@ -281,34 +274,5 @@ We are waiting for the completion of the deployment.
 
 [Перейти к началу](https://github.com/Dimokus88/Clan#Clan-validator-node-on-akash-network)
 
-[Полезные команды](https://github.com/Dimokus88/Clan#useful-commands--%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B)
-
 ### Спасибо что используете Akash Network!
 
-___
-
-#### Useful Commands | Полезные команды
-
-Use the ```SHELL``` tab of the ***Akashlytics*** user interface to enter commands.
-
-Для ввода команд используйте вкладку ```SHELL``` пользовательского интерфейса ***Akashlytics*** .
-
-Node status | Статус ноды
-
-```curl -s localhost:26657/status``` node status
-
-Checking balance | Проверка баланса
-
-```cland q bank balances your_clan_address``` 
-
-Distribution withdraw rewards | Вывод комиссионных
-
-```cland tx distribution withdraw-rewards your_valoper --from your_clan_address ---fees 5555uclan --commission -y``` 
-
-Send tokens | Отправка токенов
-
-```cland tx bank send name_wallet your_clan_address 1001000usei --fees 5550uclan --chain-id sei-private-1 -y```
-
-Voting | Голосование
-
-```cland tx gov vote 1 yes --from your_clan_address --fees 5550uclan`
