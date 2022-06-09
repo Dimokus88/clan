@@ -53,7 +53,7 @@ Before you start - subscribe to our news channels:
 
 > ```LINK_KEY``` -  comment out the env to the priv_validator_key.json. 
 
-In the ```resources``` field, we set the capacity to be rented. ```4 CPU x 32 GB RAM x 1 TB SSD``` recommended for ***Clan*** node. 
+In the ```resources``` field, we set the capacity to be rented. ```4 CPU x 32 GB RAM x 100 GB SSD``` recommended for ***Clan*** node. 
 
 * Click on ```CREATE DEPLOYMENT``` and we are waiting for the appearance of providers with free capacities (BIDS).
 
