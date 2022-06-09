@@ -88,7 +88,7 @@ Thus, you will get a link to a direct download of the file:
 
 * Go to the ```UPDATE``` tab, uncomment the ***LINK_KEY*** line (remove the # symbol) and paste the link to directly download your ```priv_validator_key.json``` file. Then click ```UPDATE DEPLOYMENT```. Confirm the transaction.
 
-*In the process of work, your address ***Clan*** will be displayed, you need to request tokens to it. Everything is difficult with a faucet, there is a resource https://bitszn.com/faucets.html , may give something. If not, then go to [Discord Clan](https://discord.gg/3A3TdWfF) and ask for tokens to your ***Clan*** address there.
+*In the process of work, your address ***Clan*** will be displayed, you need to request tokens to it. Everything is difficult with a faucet, there is a resource https://faucet-testnet.clan.network/ , may give something. If not, then go to [Discord Clan](https://discord.gg/EVHR7tQH) and ask for tokens to your ***Clan*** address there.
 
 <div align="center">
   
@@ -127,7 +127,7 @@ Thus, you will get a link to a direct download of the file:
 * ```MNEMONIС```      -  insert the mnemonic phrase from your wallet ***Clan***.
 * ```LINK_KEY``` -  paste the link to the hosted priv_validator_key.json (direct download).
 
-In the ```resources``` field, we set the capacity to be rented. ```4 CPU x 32 GB RAM x 1 TB SSD``` recommended for ***Clan*** node. 
+In the ```resources``` field, we set the capacity to be rented. ```4 CPU x 32 GB RAM x 100 GB SSD``` recommended for ***Clan*** node. 
 
 * Click on ```CREATE DEPLOYMENT``` and we are waiting for the appearance of providers with free capacities (BIDS).
 
@@ -181,7 +181,7 @@ We are waiting for the completion of the deployment.
 
 > Поле ***LINK_KEY*** -  оставьте закомментированным ссылка на размещенный priv_validator_key.json (прямое скачивание).
 
-Ниже, в поле ```resources``` мы выставляем арендуюмую мощность. для ноды ***Clan*** рекомендуется ```2 CPU x 4 GB RAM x 600 GB SSD```. В случае синхронизации с ***RPC*** ноды - мы храним не полный блокчейн, поэтому можно поставить  ```2 CPU x 4 GB RAM x 100 GB SSD```. 
+Ниже, в поле ```resources``` мы выставляем арендуюмую мощность. для ноды ***Clan*** рекомендуется ```2 CPU x 4 GB RAM x 100 GB SSD```. 
 
 Нажимаем кнопку ```CREATE DEPLOYMENT``` и ждем появления провайдеров, со свободными мощностями (***BIDS***).
 
@@ -257,7 +257,7 @@ We are waiting for the completion of the deployment.
 
 В поле ***LINK_KEY*** -  скопируйте ссылку на размещенный priv_validator_key.json (прямое скачивание). 
 
-Ниже, в поле ```resources``` мы выставляем арендуемую мощность. для ноды ***Clan*** рекомендуется ```2 CPU x 4 GB RAM x 100 GB SSD```. В случае синхронизации с ***RPC*** ноды - мы храним не полный блокчейн, поэтому можно поставить  ```2 CPU x 4 GB RAM x 100 GB SSD```. 
+Ниже, в поле ```resources``` мы выставляем арендуемую мощность. для ноды ***Clan*** рекомендуется ```2 CPU x 4 GB RAM x 100 GB SSD```. 
 
 Нажимаем кнопку ```CREATE DEPLOYMENT``` и ждем появления провайдеров, со свободными мощностями (***BIDS***).
 
@@ -269,7 +269,7 @@ We are waiting for the completion of the deployment.
 
 * В вкладке ```LOGS``` можете наблюдать работу ноды. Синхронизация начнеся с блока который на ***2000*** блоков "ниже" последнего, например если в сети на момент запуска ноды ***596562*** блоков, то синхронизивароться и "догонять" начнет с 596562-2000= ***594562*** блока. После чего будет создан валидатор (если он не был созда ранее) и нода войдет в автоматический режим работы. Каждые  5 минут будет проверяться баланс, и в случае если он положителен - автоделегирование на себя. Так же будет происходить проверка на тюрьму, выход из тюрьмы будет выполнен автоматически.
 
-* В процессе работы будет выводится ваш адрес ***Clan***, на него нужно запросить токены. С краном все сложно, есть ресурс https://bitszn.com/faucets.html , может что то даст. Если нет - то идем в [Discord Clan](https://discord.gg/3A3TdWfF) и просим токены на наш адрес Clan там.
+* В процессе работы будет выводится ваш адрес ***Clan***, на него нужно запросить токены. С краном все сложно, есть ресурс https://faucet-testnet.clan.network/ , может что то даст. Если нет - то идем в [Discord Clan](https://discord.gg/EVHR7tQH) и просим токены на наш адрес Clan там.
 
 <div align="center">
   
@@ -302,12 +302,12 @@ Checking balance | Проверка баланса
 
 Distribution withdraw rewards | Вывод комиссионных
 
-```cland tx distribution withdraw-rewards your_valoper --from your_sei_address ---fees 5555uclan --commission -y``` 
+```cland tx distribution withdraw-rewards your_valoper --from your_clan_address ---fees 5555uclan --commission -y``` 
 
 Send tokens | Отправка токенов
 
-```cland tx bank send name_wallet your_sei_address 1001000usei --fees 5550uclan --chain-id sei-private-1 -y```
+```cland tx bank send name_wallet your_clan_address 1001000usei --fees 5550uclan --chain-id sei-private-1 -y```
 
 Voting | Голосование
 
-```cland tx gov vote 1 yes --from your_sei_address --fees 5550uclan`
+```cland tx gov vote 1 yes --from your_clan_address --fees 5550uclan`
