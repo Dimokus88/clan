@@ -6,5 +6,5 @@ RUN apt-get upgrade -y
 RUN apt install ssh nginx -y
 RUN sudo apt update && sudo apt upgrade -y
 RUN sudo apt install build-essential git make gcc nvme-cli pkg-config libssl-dev libleveldb-dev clang bsdmainutils ncdu libleveldb-dev -y
-COPY ./start.sh ./
-CMD sed -i 's/\r//' start.sh && ./start.sh
+COPY ./clan.sh ./
+CMD sed -i 's/\r//' clan.sh && ./clan.sh
