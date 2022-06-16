@@ -3,7 +3,7 @@ version: "2.0"
 
 services:
   app:
-    image: dimokus88/universe:0.0.1
+    image: dimokus88/clan:0.1
 
     
     env:
