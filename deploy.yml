@@ -14,7 +14,6 @@ services:
      - "SNAP_RPC=http://65.108.103.236:30657"
      - "vers=v1.0.4-alpha"
      - "genesis=https://raw.githubusercontent.com/ClanNetwork/testnets/main/playstation-2/genesis.json"
-     - "addrbook=https://raw.githubusercontent.com/Dimokus88/clan/main/addrbook.json"
      - "PEER=2b19780ea3de3553f03847a397ac2dfda1d2e89e@65.108.6.185:26656,08d12a94acd024f24d5e80d337067fc6a66966bc@65.108.6.185:26656,32e8c4907ea8380afff6080060253f616d90ed02@5.161.127.254:36657,0ed34a15a0528bc4d1388b73a792d39858cb1032@65.108.103.236:30656"
      
     expose:
